@@ -10,5 +10,5 @@
         for mapping: git config --global credential.helper cache
         for remapping: git config --global --unset credential.helper
     7. git pull for making directory upto date
-    8. git push -u origin master - to push the changes to github
+    8. git push -u origin master - to push the changes to github - to push the changes need to go developer options and generate token and give the same while git push is                prompting for password to enter.
         
