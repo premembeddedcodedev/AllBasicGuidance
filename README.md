@@ -9,4 +9,6 @@
     6. personal token remap use below commands: 
         for mapping: git config --global credential.helper cache
         for remapping: git config --global --unset credential.helper
+    7. git pull for making directory upto date
+    8. git push -u origin master - to push the changes to github
         
