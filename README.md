@@ -8,9 +8,10 @@
         for remapping: git config --global --unset credential.helper
     *. git pull for making directory upto date
     *. procedure to upload code into github
-        a. git add .
-        b. git commit -a -m
-        c. git push -u origin master - to push the changes to github - to push the changes need to go developer options and generate token and give the same while git push is                prompting for password to enter.
+        > git add .
+        > git commit -a -m
+        > git push -u origin master - to push the changes to github - to push the changes need to go developer options 
+          and generate token and give the same while git push is prompting for password to enter.
     *. git log --oneline -5 --author praveenv --before "Fri Mar 26 2022"
  
  Git configs:
