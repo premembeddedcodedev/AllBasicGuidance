@@ -14,6 +14,7 @@
     *. git log --oneline -5 --author praveenv --before "Fri Mar 26 2022"
  
  Git configs:
+ 
     *. git config --global core.editor vim --> without giving this, we cant git commit long message in vim or someother editor 
     *. git config --global commit.template ~/.gitmessage.txt
     *. create a ~/.gitignore_global file and run git config --global core.excludesfile ~/.gitignore_global
@@ -26,4 +27,5 @@
             > to display configurations of user and mail address -> git config --list or vim ~/.gitconfig
             
    References:
-   https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+      
+      https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
