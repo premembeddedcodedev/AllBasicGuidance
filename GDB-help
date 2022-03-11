@@ -1,0 +1,6 @@
+
+TUI Enablement to see source code browsing in two windows like tmux:
+
+      When you are stepping with n in GDB tui mode, source code window can get broken. 
+      This can happen when the program is printing something to stdout, breaking layout of tui windows.
+      Looks like this is what happening in 911 line in DPRINTF() call. To fix the layout you can press Ctrl+L and tui window will be refreshed.
