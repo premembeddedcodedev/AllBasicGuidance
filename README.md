@@ -26,7 +26,13 @@
             > to set the git editor -> git config --global core.editor vim
             > to change the default branch created using git init -->  git config --global init.defaultBranch master
             > to display configurations of user and mail address -> git config --list or vim ~/.gitconfig
-            
+    *. Avoid typing password everytime use below:
+            > git config credential.helper store
+            > got to .git repository link
+            > type username and password
+            > from next push, git will not prompt for password
+   
+   
    References:
       
       https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
