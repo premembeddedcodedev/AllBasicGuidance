@@ -48,12 +48,4 @@ Once everything is installed, you will see a project structure like below:
 │   ├── helper.cpp        # Helper cpp file.
 │   ├── helper.h          # Helper header file.
 │   └── main.cpp          # Main module cpp file.
-```
-
-# License
-
-[Apache 2.0 License](LICENSE.md) - &copy; 2015 Baris Yuksel
-
-# Bugs, Requests and Support #
-
-For bug reports, feature requests and general questions, please feel free to email baris@onehundredyearsofcode.com
+``
