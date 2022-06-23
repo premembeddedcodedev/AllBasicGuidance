@@ -3,6 +3,7 @@ Git Commands:
     *. personal token remap use below commands: 
         for mapping: git config --global credential.helper cache
         for remapping: git config --global --unset credential.helper
+        Above commands are not working directly go to vim ~/.git-credentials file and change the token.
     *. git pull for making directory upto date
     *. procedure to upload code into github
         > git add .
