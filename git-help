@@ -11,6 +11,10 @@ Git Commands:
         > git push -u origin master - to push the changes to github - to push the changes need to go developer options 
           and generate token and give the same while git push is prompting for password to enter.
     *. git log --oneline -5 --author praveenv --before "Fri Mar 26 2022"
+    
+    Branch checkin for github:
+    *. git checkout -b HomeAutomation-Next
+    *. git push origin HomeAutomation-Next
  
  Git configs:
  
