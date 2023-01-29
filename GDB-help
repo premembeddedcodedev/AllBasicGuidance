@@ -4,3 +4,42 @@ TUI Enablement to see source code browsing in two windows like tmux:
       When you are stepping with n in GDB tui mode, source code window can get broken. 
       This can happen when the program is printing something to stdout, breaking layout of tui windows.
       Looks like this is what happening in 911 line in DPRINTF() call. To fix the layout you can press Ctrl+L and tui window will be refreshed.
+
+
+gdb command line arguements: gdb -args ./a.out <arguments>
+
+https://visualgdb.com/gdbreference/commands/display
+
+https://medium.com/@codingfreak/hashing-problems-in-data-structures-c41b77a5119a
+
+Find pair with given sum in an array
+
+tui enable to see the source insight view kind of display the source code
+
+ctrl + x + o to switch the windows between gdb and tui source code
+
+Commands:
+  1. Display - will show the variable status for each iteration
+    a. undisplay <number> -- number will come when we set display command for the first for the variable
+  2. p - will show only one time display the variable
+  3. finish - step out
+  4. step-in - 'S'
+  5. Next - 'n' - next place
+  6.continue - continue till next break point
+  7. Break points description 
+      a. delete all break points - 'd'
+      b. clear the break point - clear <function/number>
+      c. info b
+      d. disable b
+      e. enable b
+      
+  8. Watch points
+      a. info watch
+      b. watch varable
+     
+  9. List - 'L'
+  10. bt - backtrace
+  11. p - print
+  12. set varible - set variable a = 5
+  13. assign a=5
+  14. Checkpoints
