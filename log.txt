@@ -1,0 +1,16 @@
+arm-none-eabi-as -mcpu=arm926ej-s -g helloworld/startup.s -o startup.o
+arm-none-eabi-as -mcpu=arm926ej-s -g helloworld/test.s -o test.o
+arm-none-eabi-as -mcpu=arm926ej-s -g helloworld/test.c -o test.o
+arm-none-eabi-as -c -mcpu=arm926ej-s -g helloworld/test.c -o test.o
+arm-none-eabi-gcc -c -mcpu=arm926ej-s -g helloworld/test.c -o test.o
+arm-none-eabi-ld -T helloworld/test.ld test.o startup.o -o test.elf
+arm-none-eabi-objcopy -O binary test.elf test.bin
+
+praveenv@praveenv-vm:~/sambashare/Otherprojects/arm926ej-s-bare-metal-examples$ qemu-system-arm -M versatilepb -m 128M -nographic -kernel test.bin
+pulseaudio: set_sink_input_volume() failed
+pulseaudio: Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed
+pulseaudio: Reason: Invalid argument
+Hello world!
+QEMU: Terminated
+
